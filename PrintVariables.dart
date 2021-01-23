@@ -6,11 +6,11 @@ void main(){
   print('Enter your first name:');
   var firstName = stdin.readLineSync();
   print('Enter your last name:');
-  var lastName= stdin.readLineSync();
+  var lastName = stdin.readLineSync();
   print('Enter your age:');
-  var age=stdin.readLineSync();
+  var age = stdin.readLineSync();
   print('Enter your height:');
-  var height=stdin.readLineSync();
+  var height = stdin.readLineSync();
   print('The details you have entered are:');
   print('First name: $firstName');
   print('Last name : $lastName');

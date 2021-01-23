@@ -1,9 +1,9 @@
 import 'dart:io';
 void main(){
-  print('Enter your salary:');
+  print('Enter your salary');
   int totalSalary = int.parse(stdin.readLineSync());
-  print('Enter your expenses:');
-  int allExpenses = int.parse(stdin.readLineSync());100
+  print('Enter your expenses');
+  int allExpenses = int.parse(stdin.readLineSync());
 
   if(totalSalary>allExpenses) {
     print('You have saved ${totalSalary - allExpenses} this month');

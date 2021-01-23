@@ -7,7 +7,8 @@ enum Operation{
 void main(){
   const a = 4;
   const b = 2;
-  const op = Operation.plus;
+  const op = Operation.minus;
+  ;
   switch(op){
       case Operation.plus:
         print('Addition of $a & $b is:${a+b}' );
